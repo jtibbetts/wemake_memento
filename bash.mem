@@ -1,0 +1,12 @@
+#createsymlink: ln -s <target-path> <sym-path>et-path> <sym-path>
+#extractlines: sed -n 10,250p somfile.txt
+#findbiggestfiles: ls -l | sort +4n  (OR -k4n)
+#findlargestdirectories: du -S | sort -n
+#listtardirectory: tar -xzvf <tarfname>
+#pipetonull: command > /dev/null 2>&1
+#purgelinuxfiles: find /path/to/files* -mtime +<number-of-days> -exec rm {} \;
+#rsyncsshpull: rsync -avz -e ssh root@kinexis.com::/home/NdaRegistry/backup/NdarBackup.tgz .
+#rsynctoarchive: rsync -avz <dir> vidor:<backupdir>⇥
+#rsyncwithidentityfile: rsync -avz -e "ssh -i /FULL/path/to/identityfile" ...etc
+#tardirectory: tar czf <fname.tgz> <dir-to-tar-addr-relative-to-current>
+#untardirectory: tar -xzvf <tarfname>

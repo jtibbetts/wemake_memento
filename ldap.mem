@@ -1,0 +1,2 @@
+#clearldapentries: stop ldap; rm all /var/lib/ldap; restart ldap
+#dumpallldap: sudo ldapsearch -LLL -Y EXTERNAL -H ldapi:/// -b cn=config

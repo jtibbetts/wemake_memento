@@ -1,0 +1,6 @@
+#changemysqlpassword: set password for 'kinexis'@'localhost' = password('kinexapi');
+#copydatabase: mysqldump --user=coursesmart --password=eb00ks4all --host=rds.coursesmart.com CSServiceHub | mysql --user=coursesmart --password=eb00ks4all --host=rds.coursesmart.com TestCSServiceHub
+#createsqltable: create table core_timeentry select * from core_timeentry_backup;
+#createuser: create user 'kinexis'@'localhost' identified by 'kinexapi';
+#grantall: grant all privileges on NdaRegistry.* to 'kinexis'@'localhost';
+#mysqlpassword: mysql -u kinexis -p'kinexapi';

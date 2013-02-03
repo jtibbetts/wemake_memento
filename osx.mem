@@ -1,0 +1,3 @@
+#attachdmg: hdiutil attach /path/to/myDMG.dmg
+#flushdns: dscacheutil -flushcache
+#showallfiles: defaults write com.applet.finder AppleShowAllFIles True

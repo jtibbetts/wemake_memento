@@ -1,0 +1,8 @@
+#findsitepackages: python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"
+#generatesaltedhash: tr -c -d '0123456789abcdefghijklmnopqrstuvwxyz' </dev/urandom | dd bs=32 count=1 2>/dev/null;echo
+#markundefinedimports: #@UndefinedImports OR #@UnresolvedImports
+#markundefinedvars: #@UndefinedVariable
+#pythonexceptioninfo: sys.exc_info()
+#pythonmain: if __name__ == "__main__":
+#super: super(Class, object).method()
+↵

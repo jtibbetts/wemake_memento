@@ -1,0 +1,2 @@
+#hashselect: hash.reject { |key,_| !flds.include? key }
+#showmethods: <obj>.instance_methods(<recurse-into-ancestors>)
