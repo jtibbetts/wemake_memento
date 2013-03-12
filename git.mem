@@ -1,0 +1,9 @@
+#get_all_remote_branches:
+#!/bin/bash
+for branch in `git branch -a | grep remotes | grep -v HEAD | grep -v master`; do
+    git branch --track ${branch##*/} $branch
+done
+#archive_branch:
+git tag archive/<branchname> <branchname>
+git branch -d <branchname>
+#get_full_object_name:git rev-parse <any-unique-prefix>
