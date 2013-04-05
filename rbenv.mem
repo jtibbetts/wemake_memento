@@ -1,0 +1,10 @@
+#install_ruby187onosx: 
+install xquartz
+brew install apple-gcc42
+export CPPFLAGS=-I/opt/X11/include
+CC=/usr/local/bin/gcc-4.2 rbenv install 1.8.7-p370
+#install_gems:
+get install bundler --pre
+gem install rails
+#versions: rbenv versions
+#version: rbenv version
