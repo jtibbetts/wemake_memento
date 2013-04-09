@@ -5,4 +5,3 @@
 #pythonexceptioninfo: sys.exc_info()
 #pythonmain: if __name__ == "__main__":
 #super: super(Class, object).method()
-↵

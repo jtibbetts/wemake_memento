@@ -1,1 +1,4 @@
-#pass_the_cap: if [ ! `gem source | grep vital` ]; then curl http://vststaff.vitalbook.com/gemm_setup.txt | bash; else echo "source already installed"; fi
+#pass_the_cap:curl http://vststaff.vitalbook.com/gemm_setup.txt
+gem install pass_the_cap
+gem install my_god_and_i
+
