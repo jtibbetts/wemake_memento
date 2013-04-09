@@ -1,0 +1,1 @@
+#pass_the_cap: if [ ! `gem source | grep vital` ]; then curl http://vststaff.vitalbook.com/gemm_setup.txt | bash; else echo "source already installed"; fi
