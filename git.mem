@@ -7,3 +7,4 @@ done
 git tag archive/<branchname> <branchname>
 git branch -d <branchname>
 #get_full_object_name:git rev-parse <any-unique-prefix>
+#cap_deploy_specific: cap -S revision=2e876e60674b75a04b34f86d21a52fad275baa04 production deploy
